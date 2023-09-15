@@ -1,14 +1,8 @@
-//import React, { useState, useEffect } from 'react';
-//axios
-//import axios from 'axios';
-//Components
+
 import Card from '../Components/Card';
-// Contexts
+
 import { useDentiStates } from '../Components/utils/global.context';
-// Router
-//import { Link } from 'react-router-dom';
-// Styles
-//import styles from '../Styles/style.module.css';
+
 import '../index.css';
 
 

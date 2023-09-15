@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-// Contexts
+
 import { useDentiStates } from '../Components/utils/global.context';
-// Styles
+
 import '../index.css'
 
 
 const Form = () => {
 
   const { dentiState } = useDentiStates();
-  //Aqui deberan implementar el form completo con sus validaciones
+ 
 
 
   const [ form, setForm ] = useState({
@@ -35,7 +35,7 @@ const Form = () => {
   };
 
 
-  // expresion regular para validar mail
+  
   const regex = new RegExp(/^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/);
 
   const validateInput = () => {
